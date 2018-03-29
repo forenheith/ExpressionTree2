@@ -43,8 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Mapper.cs" />
+    <Compile Include="MappingGenerator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestCalsses\ClassA.cs" />
+    <Compile Include="TestCalsses\ClassB.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
